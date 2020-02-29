@@ -8,15 +8,11 @@
 # end
 
 def find_element_index(array, value_to_find)
-  i = 0
-  for index in array do 
-    if index == value_to_find
-      return index[i]
-    else 
-      next
+  array.length.times do |count|
+    if array[count] == value_to_find
+      return count
     end
-    i += 1
-  end
+    nil
 end
 
 def find_max_value(array)
