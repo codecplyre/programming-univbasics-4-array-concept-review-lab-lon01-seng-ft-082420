@@ -29,7 +29,7 @@ end
 
 def find_min_value(array)
   # Add your solution here
-  min_num = 20000
+  min_num = array[0]
   for number in array do 
     if min_num > number 
       min_num = number
