@@ -7,6 +7,15 @@
 #   end
 # end
 
+def find_element_index(array, value_to_find)
+  i = 1
+  for index in array do 
+    if index[i] == value_to_find
+      return index
+    end
+    nil
+end
+
 def find_max_value(array)
   # Add your solution here
   max_num = 0
