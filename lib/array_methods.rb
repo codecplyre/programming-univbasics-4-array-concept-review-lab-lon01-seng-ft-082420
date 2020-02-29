@@ -13,7 +13,7 @@ def find_element_index(array, value_to_find)
     if index[i] == value_to_find
       return index
     else 
-      nil
+      next
     end
     i += 1
   end 
