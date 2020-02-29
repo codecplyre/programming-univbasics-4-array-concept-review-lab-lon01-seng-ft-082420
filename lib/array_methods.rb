@@ -11,7 +11,7 @@ def find_element_index(array, value_to_find)
   i = 0
   for index in array do 
     if index == value_to_find
-      return index
+      return index[i]
     else 
       next
     end
