@@ -8,9 +8,8 @@
 # end
 
 def find_element_index(array, value_to_find)
-  i = 1
   for index in array do 
-    if index[i] == value_to_find
+    if index == value_to_find
       return index
     else 
       next
