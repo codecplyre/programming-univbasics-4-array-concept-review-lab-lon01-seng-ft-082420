@@ -14,7 +14,7 @@ def find_element_index(array, value_to_find)
     end
   end
   nil
-end
+end        
 
 def find_max_value(array)
   # Add your solution here
@@ -22,7 +22,7 @@ def find_max_value(array)
   for number in array do
     if max_num < number 
       max_num = number
-    end
+    end                                                     
   end
   return max_num 
 end
